@@ -6,9 +6,9 @@ from app import prime_num_generator
 # check that numbers returned are prime numbers i.e. greater than 1, divisible by 1 and themselves only
 class MainTest(unittest.TestCase):
     def test_prime_num_generator(self):
-       self.assertEqual(type(prime_num_generator(1,100)), list)
-       self.assertTrue(isinstance(prime_num_generator(1,100)[-1], int))
-       self.assertEqual(prime_num_generator(1,100)[-2]>1)
+       self.assertEqual(type(prime_num_generator(100)), list, msg="A list must be returned")
+       self.assertTrue(isinstance(prime_num_generator(100)[-1], int), msg="Error: Integers must be written")
+       self.assertEqual(prime_num_generator(100)[-2]>1)
 
 if __name__ == '__main__':
     unittest.main()
