@@ -2,7 +2,7 @@
 This is a function written in python that generates prime numbers. It was implemented using test driven development. Tests were written using the unittest package
 
 ## Steps on Installation
-Download ad install the following tools on your computer to be able run this code
+Download and install the following tools on your computer to be able run this code
 * Python [Download](https://www.python.org/downloads)
 * Optional: Git Version Control [Download](http://git-scm.com/download/)
 
